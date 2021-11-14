@@ -1,12 +1,12 @@
 //functional Component
 import React, { Fragment } from 'react';
 import Proptypes from 'prop-types'
-const PrimeraApp= ({saludo/* ,subtitulo */})=>{
+const PrimeraApp= ({saludo,subtitulo })=>{
 
     return (<>
-        <h1>{saludo}</h1>
+        <h1>{saludo}!!!</h1>
         {/* <pre>{JSON.stringify(saludo,null,3)} </pre> */}
-       {/*  <p>{subtitulo}</p> */}
+        <p>{subtitulo}</p>
     </>)
     
  }
